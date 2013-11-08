@@ -14,7 +14,7 @@ var squareNumber = function(){
 }
 
 
-check = function() {
+var check = function() {
 	return {
 	        firstname: Hapi.types.String().required().min(1),
 	        lastname: Hapi.types.String().required().min(1)
